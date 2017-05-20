@@ -1,24 +1,8 @@
-# README
+# hello_app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my first Rails app, which replaces the default rails page with the text "Hello, world!"
 
-Things you may want to cover:
+Two basic changes were required to the default Rails project files:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  * I added a "hello" action (method) to app/controllers/application_controller.rb
+  * I added a root route to config/routes.rb.
